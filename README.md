@@ -8,3 +8,5 @@
     --> transactionType: DEPOSIT/WITHDRAW
     --> bornDate: yyyy-MM-dd
     --> date: yyyy-MM-dd
+
+### Versão SDK Utilizada: JetBrains RunTime 17.0.6.
