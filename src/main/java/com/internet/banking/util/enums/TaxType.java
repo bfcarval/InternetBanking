@@ -15,7 +15,7 @@ public enum TaxType {
 
     private BigDecimal taxPercentage;
 
-    public static TaxType defineTax(BigDecimal amount) {
+    public static TaxType defineTax(final BigDecimal amount) {
         if (amount.compareTo(BigDecimal.valueOf(100.00)) != 1)
             return ZERO;
 
